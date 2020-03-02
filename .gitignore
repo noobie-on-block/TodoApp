@@ -1,0 +1,12 @@
+# ideal structure
+ideal_structure
+
+# virtual environment
+venv
+
+# any db
+*.sqlite
+
+# .idea directory
+.idea
+__pycache__
