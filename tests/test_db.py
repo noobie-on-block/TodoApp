@@ -1,7 +1,7 @@
 from unittest import TestCase
-from app import create_app, db, migrate
+from app import create_app, db
 from sqlalchemy import inspect
-from models import Todo, List
+from app.models import Todo, List
 
 
 class DatabaseTestCase(TestCase):
